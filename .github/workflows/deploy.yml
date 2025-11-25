@@ -13,7 +13,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Run deploy script from project directory
+      - name: Run deploy script from REAL project path
         run: |
-          cd ~/PYTHON/count
-          bash deploy.sh
+          cd /home/dani/PYTHON/count
+          ./deploy.sh
