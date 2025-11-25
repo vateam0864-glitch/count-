@@ -1,8 +1,12 @@
 import time
 
-for i in range(20, 9, -1):
+for i in range(100, 0, -1):
     print(i)
     time.sleep(1)
+
+print("New update is running!")
+print("hello anna")
+
 print("New update is running!")
 print("hello")
 print("new line test")
