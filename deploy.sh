@@ -1,4 +1,3 @@
-nohup /usr/bin/python3 app.py > output.log 2>&1 &
 #!/bin/bash
 
 echo "🔄 Pulling latest code..."
