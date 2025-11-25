@@ -1,7 +1,7 @@
 import time
 
-for i in range(100, 0, -1):
-    print(i)
+while True:
+    print("Your app is running…")
     time.sleep(1)
 
 print("New update is running!")
