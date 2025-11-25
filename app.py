@@ -11,5 +11,4 @@ print("New update is running!")
 print("hello")
 print("new line test")
 print ("hello anna ")
-print("hello world")
-print("AUTO DEPLOY IS WORKING NOW!")
+
