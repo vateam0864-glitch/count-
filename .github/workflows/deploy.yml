@@ -8,12 +8,12 @@ on:
 jobs:
   deploy:
     runs-on: self-hosted
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Run deploy script from correct directory
+      - name: Run deploy script from project directory
         run: |
           cd ~/PYTHON/count
           bash deploy.sh
-
