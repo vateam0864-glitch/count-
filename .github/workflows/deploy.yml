@@ -7,10 +7,13 @@ on:
 
 jobs:
   deploy:
-    runs-on: self-hosted   # <— your laptop
+    runs-on: self-hosted
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Run deploy script
-        run: bash deploy.sh
+      - name: Run deploy script from correct directory
+        run: |
+          cd ~/PYTHON/count
+          bash deploy.sh
+
