@@ -17,4 +17,3 @@ jobs:
         working-directory: /home/dani/PYTHON/count
         run: |
           bash deploy.sh
-
